@@ -1,0 +1,6 @@
+<resources>
+    <!--for focus view-->
+    <dimen name="radius_outer">50dp</dimen>
+    <dimen name="radius_inner">30dp</dimen>
+    <dimen name="stroke_width">2dp</dimen>
+</resources>

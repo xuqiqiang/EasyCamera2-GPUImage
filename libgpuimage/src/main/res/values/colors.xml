@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="focus_success">#13ce67</color>
+    <color name="focus_error">#ce132c</color>
+    <color name="focus_normal">#e7d5fa</color>
+</resources>
