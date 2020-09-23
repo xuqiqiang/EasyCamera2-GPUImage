@@ -20,7 +20,7 @@ allprojects {
 }
 
 dependencies {
-	implementation 'com.github.xuqiqiang:EasyCamera2-GPUImage:1.0.0'
+	implementation 'com.github.xuqiqiang:EasyCamera2-GPUImage:1.0.1'
 }
 ```
 
