@@ -9,6 +9,8 @@ EasyCamera2的图像处理库，可实现实时滤镜
 - 支持图片的滤镜处理
 - 内置几十种滤镜方案
 
+Demo app: [https://github.com/xuqiqiang/EasyCamera2App](https://github.com/xuqiqiang/EasyCamera2App)
+
 ## Gradle dependency
 
 ```
@@ -20,7 +22,7 @@ allprojects {
 }
 
 dependencies {
-	implementation 'com.github.xuqiqiang:EasyCamera2-GPUImage:1.0.1'
+	implementation 'com.github.xuqiqiang:EasyCamera2-GPUImage:1.0.2'
 }
 ```
 
