@@ -3,9 +3,9 @@ package org.wysaid.nativePort;
 import android.graphics.Bitmap;
 
 public class CGEFFmpegNativeLibrary {
-    static {
-        NativeLibraryLoader.load();
-    }
+//    static {
+//        NativeLibraryLoader.load();
+//    }
 
     //CN: 视频转换+特效可能执行较长的时间， 请置于后台线程运行.
     //EN: Convert video + Filter Effects may take some time, so you'd better put it on another thread.

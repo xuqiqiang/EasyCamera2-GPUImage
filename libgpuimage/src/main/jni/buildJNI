@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #replace the path below with your ndk-dir 
-#NDK=/Users/wangyang/android_dev/android-ndk
+NDK=/home/xu/dev/android-ndk-r14b
 
 if [[ "$NDK" == "" ]]; then
 

@@ -140,7 +140,7 @@ include $(BUILD_SHARED_LIBRARY)
 
 else 
 
-LOCAL_SHARED_LIBRARIES := ffmpeg
+LOCAL_SHARED_LIBRARIES := ffmpeg_gpuimage
 
 include $(BUILD_SHARED_LIBRARY)
 
@@ -156,12 +156,12 @@ include $(BUILD_SHARED_LIBRARY)
 ###############################
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := ffmpeg
+LOCAL_MODULE := ffmpeg_gpuimage
 LOCAL_CFLAGS := -mfloat-abi=softfp -mfpu=vfp -O3 -ffast-math -funroll-loops -fPIC
 ifeq ($(TARGET_ARCH_ABI),armeabi-v7a)
 LOCAL_CFLAGS := $(LOCAL_CFLAGS) march=armv7-a -mfpu=neon
 endif
-LOCAL_SRC_FILES := ffmpeg/$(TARGET_ARCH_ABI)/libffmpeg.so
+LOCAL_SRC_FILES := ffmpeg/$(TARGET_ARCH_ABI)/libffmpeg_gpuimage.so
 LOCAL_EXPORT_C_INCLUDES := $(CGE_ROOT)/ffmpeg
 
 # LOCAL_SHARED_LIBRARIES := x264

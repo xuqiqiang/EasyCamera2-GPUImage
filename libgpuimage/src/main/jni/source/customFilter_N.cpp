@@ -2,6 +2,7 @@
 //  CustomFilter_N.h
 //  filterLib
 //
+//  Modified by xuqiqiang on 20/9/27
 //  Created by wangyang on 16/8/2.
 //  Copyright © 2016年 wysaid. All rights reserved.
 //
